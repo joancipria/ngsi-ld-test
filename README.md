@@ -12,3 +12,8 @@ python3 -m venv ./venv && source ./venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+4. Init git submodules with the following command. This will clone and install a dead simple [ngsi-ld client library](https://github.com/CitCom-VRAIN/ngsild-client) in `lib` folder.
+```bash
+git submodule init && git submodule update
+```
